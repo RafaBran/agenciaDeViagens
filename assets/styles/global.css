@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins&family=Raleway&family=Righteous&family=Sarala:wght@400;700&family=Source+Sans+Pro:wght@400;900&display=swap');
+
+
+/* estilizações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containner {
+    max-width: 1024px;
+}
+body {
+    background-color: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*estilização do cabeçalho */
+header {
+    width: 100%;    
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.cabecalho {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.cabecalho img {
+    width: 32px;
+}
+.cabecalho p {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+/* estilização da seção oferta */
+.form-bakcground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/imagens/bahia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-containner {
+    width: 100%;
+    margin: 50px auto;
+}
+.form-banner {
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+}
+.form-banner img {
+    width: 20px;
+    transform: rotate(-45deg);
+}
+.form-banner p {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+.form-box {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 30px 25px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form-box h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.input {
+    height: 32px;
+    margin: 10px auto;
+    width: 100%;
+    padding: 5px;
+}
+
+.data-ida-volta {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.data-ida {
+    width: 49%;
+}
+
+.data-volta {
+    width: 49%;
+}
+
+.containner-origem-destino {
+    display: flex;
+    justify-content:space-between;
+}
+.box-origem-destino {
+    width: 49%;
+}
+
+.containner-preferencias {
+    margin: 10px auto;
+}
+
+.box-preferencias {
+    display: flex;
+}
+
+.box-cama-infantil {
+    display: flex;
+}
+
+.little-box {
+    width: 120px;
+}
+
+.campo-de-marcacao p {
+    margin: 10px auto;
+}
+
+button {
+    width: 160px;
+    height: 32px;
+    margin-top: 12px;
+    background-color: #5d15d1;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
