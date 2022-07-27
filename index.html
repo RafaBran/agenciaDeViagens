@@ -7,15 +7,19 @@
     <meta name="description" content="A Agência de viagens encontra o hotel certo para você!">
     <title>Agência de Viagens</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/global.css" />
+    <!-- <link rel="stylesheet" href="assets/styles/modal.css"> -->
 </head>
 
 <body>
+
     <header>
         <div class="cabecalho containner">
             <img src="assets/assets/icones/local-logo.png" alt="icone-localizacao">
             <p>Agência de Viagens</p>
         </div>
     </header>
+
+
     <main>
 
         <section class="form-bakcground">
@@ -110,11 +114,11 @@
                                         <label for="wifi"> Wi-Fi</label>
                                     </div>
                                     <div class="little-box">
-                                        <input type="checkbox"name="preferencias[]" id="garagem" value="garagem">
+                                        <input type="checkbox" name="preferencias[]" id="garagem" value="garagem">
                                         <label for="garagem"> Garagem</label>
                                     </div>
                                     <div class="little-box">
-                                        <input type="checkbox"name="preferencias[]" id="suite" value="suite">
+                                        <input type="checkbox" name="preferencias[]" id="suite" value="suite">
                                         <label for="suite"> Suite</label>
                                     </div>
                                 </div>
@@ -127,85 +131,103 @@
         </section>
 
         <section class="offering">
-            <h2>Ofertas</h2>
-            <h3>Com até <span>50%</span> de desconto.</h3>
-            <div class="banners-sale">
-                <div class="containner-banner"><img src="assets/assets/imagens/rio.jpg" alt="iamgem-cristo-redentor">
-                </div>
-                <div class="banners-other-captals">
-                    <div class="banner-capitais-line1">
-                        <div class="containner-banner">
-                            <img src="assets/assets/imagens/manaus.jpg" alt="">
-                            <p>Manaus</p>
-                        </div>
-                        <div class="ontainner-banner">
-                            <img src="assets/assets/imagens/saopaulo.jpg" alt="">
-                            <p>São Paulo</p>
-                        </div>
+            <div class="containner-offering containner">
+                <h2>Ofertas</h2>
+                <p>Com até <span>50%</span> de desconto.</p>
+                <div class="banners-sale">
+                    <div class="banner-rj title-position">
+                        <p>Rio de Janeiro</p>
                     </div>
-                    <div class="banner-capitais-line2">
-                        <div class="containner-banner"><img src="assets/assets/imagens/rio.jpg" alt="">
-                            <p>Rio de Janeiro</p>
+                    <div class="containner-other-captals">
+                        <div class="banner-captals-1">
+                            <div class="banner-manaus title-position">
+                                <p>Manaus</p>
+                            </div>
+                            <div class="banner-sao-paulo title-position">
+                                <p>São Paulo</p>
+                            </div>
                         </div>
-                        <div class="containner-banner">
-                            <img src="assets/assets/imagens/maranhao.jpg" alt="">
-                            <p>Maranhão</p>
+                        <div class="banner-captals-2">
+                            <div class="banner-rio title-position">
+                                <p>Rio de Janeiro</p>
+                            </div>
+                            <div class="banner-maranhao title-position">
+                                <p>Maranhão</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="ad">
-            <h2>Explore a Narureza</h2>
-            <p>Viaje conosco e veja o melhor que a natureza tem a oferecer.</p>
-            <div class="card-1">
-                <img src="assets/assets/imagens/lencol.jpg" alt="imagem-lençois-maranhenses">
-                <h2>Lençois Maranhenses, Brasil</h2>
-                <p>Ida e volta a partir de R$79,00</p>
+        <!-- <section class="ad">
+            <div class="containner-ad containner">
+                <h2 class="titulo-n2">Explore a Narureza</h2>
+                <p class="paragrafo">Viaje conosco e veja o melhor que a natureza tem a oferecer.</p>
+                <div class="containner-cards">
+                    <div class="card-1">
+                        <div class="banner-lencois">
+                            <img src="assets/assets/imagens/lencol.jpg" alt="">
+                        </div>
+                        <p>Lençois Maranhenses, Brasil</p>
+                        <p>Ida e volta a partir de R$79,00</p>
+                    </div>
+                    <div class="card-2">
+                        <div class="banner-cacheira">
+                            <img src="assets/assets/imagens/goias.jpg" alt="">
+                        </div>
+                        <p>Cachoeira Santa Bárbara, Brasil</p>
+                        <p>Ida e volta a partir de R$139,00</p>
+                    </div>
+                </div>
             </div>
-            <div class="card-1">
-                <img src="assets/assets/imagens/goias.jpg" alt="imagem-cachoeira">
-                <h2>Cachoeira Santa Bárbara, Brasil</h2>
-                <p>Ida e volta a partir de R$139,00</p>
-            </div>
-        </section>
-
+        </section> -->
     </main>
+
+    <div class="modal">
+        <div class="modal-containner">
+            <p>Esse é um modal!</p>
+            <img src="assets/assets/imagens/lencol.jpg" alt="">
+        </div>
+    </div>
+
     <footer>
-        <div class="contato">
-            <h2>Contato</h2>
-            <div class="contao-l1">
-                <img src="assets/assets/icones/local.png" alt="icone-ceta">
-                <p>Rio de Janeiro - RJ</p>
+        <div class="containner footer">
+            <div class="contatos">
+                <h2>Contato</h2>
+                <div class="contato">
+                    <img src="assets/assets/icones/local.png" alt="icone-ceta">
+                    <p>Rio de Janeiro - RJ</p>
+                </div>
+                <div class="contato">
+                    <img src="assets/assets/icones/telefone.png" alt="icone-telefone">
+                    <p>Telefone (21)9999-9999</p>
+                </div>
+                <div class="contato">
+                    <img src="assets/assets/icones/email.png" alt="icone-email">
+                    <p>Email: contato@agencia.com.br</p>
+                </div>
             </div>
-            <div class="contao-l2">
-                <img src="assets/assets/icones/telefone.png" alt="icone-telefone">
-                <p>Telefone (21)9999-9999</p>
-            </div>
-            <div class="contao-l3">
-                <img src="assets/assets/icones/email.png" alt="icone-email">
-                <p>Email: contato@agencia.com.br</p>
-            </div>
+            <div class="contatos">
+                <h2>Nossas Redes Sociais</h2>
+                <div class="contato">
+                    <img src="assets/assets/icones/fb.png" alt="icone-facebook">
+                    <p>/AgenciaDeViagem</p>
+                </div>
+                <div class="contato">
+                    <img src="assets/assets/icones/ig.png" alt="icone-instagram">
+                    <p>@AgenciaDeViagem</p>
+                </div>
+                <div class="contato">
+                    <img src="assets/assets/icones/tt.png" alt="icone-twitter">
+                    <p>@AgenciaDeViagem</p>
+                </div>
         </div>
-
-        <div class="social-media">
-            <h2>Nossas Redes Sociais</h2>
-            <div class="contao-l1">
-                <img src="assets/assets/icones/fb.png" alt="icone-facebook">
-                <p>/AgenciaDeViagem</p>
-            </div>
-            <div class="contao-l2">
-                <img src="assets/assets/icones/ig.png" alt="icone-instagram">
-                <p>@AgenciaDeViagem</p>
-            </div>
-            <div class="contao-l3">
-                <img src="assets/assets/icones/tt.png" alt="icone-twitter">
-                <p>@AgenciaDeViagem</p>
-            </div>
         </div>
-
     </footer>
+
+    <script src="assets/assets/js/modal.js"></script>
+
 </body>
 
 </html>

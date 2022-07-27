@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins&family=Raleway&family=Righteous&family=Sarala:wght@400;700&family=Source+Sans+Pro:wght@400;900&display=swap');
 
+/* outra forma de importar css */
+@import url("./modal.css");
+
 
 /* estilizações gerais */
 * {
@@ -7,12 +10,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .containner {
     max-width: 1024px;
 }
 body {
     background-color: #80808029;
     font-family: 'Raleway', sans-serif;
+}
+
+span {
+    font-weight: bolder;
 }
 
 /*estilização do cabeçalho */
@@ -145,4 +153,222 @@ button {
     color: #fff;
     border: none;
     font-size: 16px;
+}
+
+/* estilização offering */
+
+.offering {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.containner-offering {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.containner-offering h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.containner-offering p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.banners-sale {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.banner-rj {
+    background-image: url(../assets/imagens/rio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 50%;
+    height: 375px;
+    margin: 1px;
+}
+
+.containner-other-captals {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 375px;
+    margin: 1px;
+}
+
+.banner-captals-1 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.banner-manaus {
+    background-image: url(../assets/imagens/manaus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 50%;
+    height: auto;
+    margin: 1px;
+}
+
+.banner-sao-paulo {
+    background-image: url(../assets/imagens/saopaulo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 50%;
+    height: auto;
+    margin: 1px;
+}
+
+.banner-captals-2 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.banner-rio {
+    background-image: url(../assets/imagens/niteroi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 50%;
+    height: auto;
+    margin: 1px;
+}
+
+.banner-maranhao {
+    background-image: url(../assets/imagens/maranhao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 50%;
+    height: auto;
+    margin: 1px;
+}
+
+.title-position {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.title-position p {
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 100%;
+    height: auto;
+}
+
+/* estilização ad */
+
+.ad {
+    width: 100%;
+    height: auto;
+}
+
+.containner-ad {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 10em;
+}
+
+.titulo-n2 {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.parágrafo{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.containner-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.containner-cards img {
+    width: auto;
+    height: 375px;
+}
+
+.card-1 {
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+}
+
+.card-2 {
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+}
+
+.banner-lencois {
+    width: auto;
+    height: auto;
+}
+
+.banner-cacheira {
+    width: auto;
+    height: auto;
+}
+
+
+/* estilização footer */
+footer {
+    background-color: rgb(93,21,209);
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer h2 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contato img {
+    width: 28px;
+    margin-right: 5px;
 }
