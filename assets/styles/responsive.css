@@ -1,0 +1,42 @@
+/* estilização responsividade
+nota!
+    resoluções:
+    320px a 540px
+    541px a 768px
+    769px a 1100px
+    1101px ou mais
+    */
+
+    @media screen and (max-width:1100px)  {
+        .containner {
+            max-width: 90%;
+        }
+    }
+    /* com o hábito de colocar um limitador geral nos elementos de um site é interessante trabalhar este com responsividade. No caso à cima o limitador que era em px foi passado para % */
+
+    @media screen and (max-width:768px) {
+        button {
+            width: 100%;
+        }
+        .banners-sale {
+            flex-direction: column;
+        }
+        .banner-rj, .containner-other-captals {
+            width: 100%;
+        }
+        .containner-cards {
+            flex-direction: column;
+        }
+        .card-1, .card-2 {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .footer {
+            flex-direction: column;
+            align-items: center;
+        }
+        .box-footer {
+            margin: 15px auto;
+            width: 250px;
+        }
+    }
