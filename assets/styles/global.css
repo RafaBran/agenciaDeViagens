@@ -175,7 +175,7 @@ button {
     font-size: 20px;
     margin: 10px 0;
     margin-top: 40px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .containner-offering p {
@@ -271,7 +271,7 @@ button {
     padding: 5px;
     padding-left: 20px;
     margin-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: rgba(0, 0, 0, 0.407);
     width: 100%;
     height: auto;
 }
@@ -283,15 +283,6 @@ button {
     height: auto;
 }
 
-.containner-ad {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    padding: 10em;
-}
-
 .titulo-n2 {
     font-size: 20px;
     margin: 10px 0;
@@ -299,45 +290,51 @@ button {
     font-weight: bold;
 }
 
-.parágrafo{
+.paragrafo {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .containner-cards {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
+.containner-cards p {
+    margin: 10px;
+}
+
+.containner-cards p:first-of-type {
+    font-weight: bold;
+}
+
+
 .containner-cards img {
-    width: auto;
-    height: 375px;
+    width: 100%;
 }
 
 .card-1 {
-    width: 50%;
-    height: auto;
+    width: 49.8%;
     background-color: #fff;
+    height: auto;
 }
 
 .card-2 {
-    width: 50%;
+    width: 49.8%;
     height: auto;
     background-color: #fff;
 }
 
-.banner-lencois {
-    width: auto;
-    height: auto;
-}
 
-.banner-cacheira {
-    width: auto;
-    height: auto;
-}
+.containner-ad {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 
+}
 
 /* estilização footer */
 footer {
@@ -357,7 +354,7 @@ footer {
     font-size: 25px;
 }
 
-.contatos {
+.box-footer {
     display: flex;
     flex-direction: column;
 }
@@ -372,3 +369,4 @@ footer {
     width: 28px;
     margin-right: 5px;
 }
+
