@@ -40,3 +40,26 @@ nota!
             width: 250px;
         }
     }
+
+
+    @media screen and (max-width:540px) {
+        .data-ida-volta {
+            flex-direction: column;
+        }
+        .data-ida, .data-volta {
+            width: 100%;
+        }
+        .containner-origem-destino {
+            flex-direction: column;
+        }
+        .box-origem-destino {
+            width: 100%;
+        }
+        .banner-captals-1, .banner-captals-2 {
+            flex-direction: column;
+        }
+        .banner-manaus, .banner-sao-paulo, .banner-maranhao, .banner-rio {
+            width: 100%;
+            height: 500px;
+        }
+    }
